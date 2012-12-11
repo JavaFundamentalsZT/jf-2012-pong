@@ -19,7 +19,7 @@ If you use another IDE or don't import the existing Eclipse project, you need to
 
 Extract native libraries from `lib/natives-<your-platform>.jar` into `nativelib` directory. Win32 libs have been extracted already.
 In case of 64-bit Windows, please use **32-bit Java** to launch the game.
-Alternatively, you can get the latest <a href=\"http://www.lwjgl.org/\">LWJGL</a> which has 64-bit Windows libraries. You may have to recompile Slick.
+Alternatively, you can get the latest [LWJGL](http://www.lwjgl.org/) which has 64-bit Windows libraries. You may have to recompile Slick.
 
 ### Step 3 - Run the game
 
