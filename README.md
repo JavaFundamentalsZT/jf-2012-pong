@@ -2,7 +2,7 @@ Pong Clone
 ==========
 
 Create a basic clone of the classic Pong game using the Slick library - http://slick.cokeandcode.com/
-Part of the implementation is given and the libraries have been included in the project.
+Part of the implementation is given and the libraries have been included in the project as well as Slick source in `lib/slick-sources.jar`.
 
 You must implement `PongGame#update` and `CPUPlayer#update` methods. You may change the rest of the code if you want.
 
@@ -17,7 +17,7 @@ If you use another IDE or don't import the existing Eclipse project, you need to
 
 ### Step 2 - Native libs
 
-Copy native libraries specific to your platform into `nativelib` directory.
+Extract native libraries from `lib/natives-<your-platform>.jar` into `nativelib` directory. Win32 libs have been extracted already.
 In case of 64-bit Windows, please use **32-bit Java** to launch the game.
 Alternatively, you can get the latest <a href=\"http://www.lwjgl.org/\">LWJGL</a> which has 64-bit Windows libraries. You may have to recompile Slick.
 
