@@ -32,9 +32,12 @@ Your assignment is for the code to pass the following requirements
 
 * Player must be able to move the left paddle with keyboard up & down arrows
 * CPU-controlled player moves the right paddle
+
   CPU player must be able to bounce the ball back at least twice if the speed of the ball doesn't change
 * The ball must change direction when it collides with either of the paddles or with the upper or lower edges of the "court"
+
   The collisions do not need to be pixel-perfect -- the collision may register either slightly before we can see the colliding objects overlap or after we see them overlap
+
   It's good enough if the ball always moves in 45 degree angles (no need for sin or cos, just mirror the initial velocity vector), but if you want you can do something more clever
 * If the ball exits the "court" by getting past one of the paddles, the game is over and you must declare a winner
 * The game should speed up the movement of the ball at some point so that either the CPU player or the human player will likely fail to catch it eventually
